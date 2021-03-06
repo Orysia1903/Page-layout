@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap');
+.container{
+    background-color: #eae5e5;
+    height: 100%;
+    width:100%;
+    margin: auto;
+}
+*{
+    margin:0
+}
+*::selection{
+    color:#eae5e5;
+    background-color:#8b8b8b;
+}
+header{
+    display:flex;
+    justify-content: center;
+}
+.name{
+    font-family: 'Bree Serif', serif;
+    color:#4e4e4e;
+    margin-top:15px
+}
+.name p{
+    display: block;
+}
+.name p:first-child{
+    margin: 10px 20px 0px;
+    font-size: 38px;
+}
+.name p:last-child{
+    font-size: 18px;
+    margin: 0px 25px;;
+}
+.main_menu{
+    display: flex;
+    list-style-type: none;
+    margin-top:15px
+}
+.main_menu li a{
+    display: block;
+    margin:50px 15px 0px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bree Serif', serif;
+    font-size:16px;
+    color:#9e9d9d;
+    transition-duration: 500ms;
+}
+
+.main_menu li a:hover{
+    color:#75d3d6;
+    transition-duration: 500ms;
+}
+footer{
+    width:100%;
+    height: 110px;
+    background-color:#e83556;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:1vh;
+}
+footer div{
+    display: flex;
+}
+.footer_item{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#61d0d4;
+    color:#e83556;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.footer_item p{
+    margin: auto;
+    position: relative;
+    bottom: 5px;
+}
+.footer_item_1 p{
+    position: relative;
+    bottom: 0px;
+}
+.footer_item_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_item_2 p{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #fad5dc;
+    font-size: 10px;
+}
+.footer_item_2 p a{
+    font-family: 'Montserrat', sans-serif;    
+    color: #fad5dc;
+    font-size: 10px;
+    text-decoration: none;
+}
+#foloow_me a{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-weight: 900;
+    font-size: 18px;
+    margin:10px 5px 0px 0px;
+}
+.footer_item_2_1{
+    font-weight: bold;
+}

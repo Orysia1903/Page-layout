@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap');
+
+#contacts{
+    color:#75d3d6;
+}
+aside{
+    width: 800px;
+    margin:auto;
+    display:flex;
+    margin-top:40px;
+    margin-bottom: 90px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #4d4d4d;
+}
+.block_left{
+    width:50%;
+    position: relative;
+}
+.block_right{
+    width:50%;
+}
+.block_left__name{
+    font-family: 'Yusei Magic', sans-serif;
+    text-transform:uppercase;
+    font-size: 63px;
+}
+#follow a{
+    color:black;
+    font-weight: 900;
+    font-size: 22px;
+    margin:10px 5px 0px 0px;
+    text-decoration: none;
+}
+#follow{
+    margin-bottom: 10px;
+}
+.my_contacts{
+    display:flex;
+    font-size: 12px;
+}
+.my_contacts p{
+    margin:0px
+}
+.my_contacts p a{
+    text-decoration: none;
+    color:#4d4d4d;
+}
+.my_contacts p:first-child{
+    font-weight: bold;
+}
+.block_left__contacts{
+    position: absolute;
+    bottom: 30px;
+}
+.block_right__p{
+    font-size: 10px;
+}
+.contact_with_me{
+    margin-top: 30px;
+}
+.block_right [type="text"],
+textarea{
+    width:350px;
+    height: 25px;
+    border-style: none;
+    background-color: #e83556;
+    outline: none;
+    margin-top: 5px;
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+[type="submit"]{
+    background-color:#eae5e5 ;
+    display: block;
+    transform: translate(305px, 10px );
+    right: 0;
+    outline: none;
+    border-style: none;
+    color:#4d4d4d;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+[type="text"]::placeholder,
+textarea::placeholder,
+[value=""]{
+    padding-left: 5px;
+    font-size: 14px;
+    color:#fff;
+    padding-left:4px
+}
+[type="text"]:hover,
+textarea:hover{
+    border: 1px solid black;
+}
+[type="text"]:focus,
+textarea:focus{
+    border: 1px solid black;
+}
+[type="submit"]:hover{
+    color:#61d0d4;
+    transition-duration: 500ms;
+}

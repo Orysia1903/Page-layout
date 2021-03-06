@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+#home{
+    color:#79d3d7;
+}
+aside{
+    width: 800px;
+    margin:auto;
+    display:flex;
+    margin-top:70px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #4d4d4d;
+}
+.my_photo{
+    width:350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, .4)
+}
+.aside__block_left{
+    width:50%;
+}
+.aside__block_right{
+    width:50%;
+    margin-left: 30px;
+}
+.aside__block_right_1 p:first-child{
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
+}
+.aside__block_right_1 p:last-child{
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    margin: 0px;
+}
+.aside__block_right_2{
+    display:flex;
+    margin-top: 30px;
+}
+.aside__block_right_2 a{
+    width:110px;
+    height: 110px;
+    border-radius:50%;
+    margin-right:20px;
+    transition: 500ms linear 200ms;
+    cursor:pointer;
+    display:block;
+}
+
+
+.aside__block_right_2 a:first-child{
+    background-color: #e83556;
+}
+.aside__block_right_2 a:nth-child(2){
+    background-color: #61d0d4;
+}
+.aside__block_right_2 a:last-child{
+    background-color: #d1c926;
+}
+.aside__block_right_2 a:hover{
+    transform:scale(1.1,1.1);
+    transition-duration: 500ms;
+}
+.aside__block_right_2 a:hover{
+    transform:scale(1.1,1.1);
+    transition-duration: 500ms;
+}
+.aside__block_right_2 a:first-child:hover{
+    background-color:#bb2843;
+    transition-duration: 500ms;
+
+}
+.aside__block_right_2 a:nth-child(2):hover{
+    background-color:#51b1b5;
+}
+.aside__block_right_2 a:last-child:hover{
+    background-color: #aea720;
+}
+
+.aside__block_right_2 a{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 600;
+    transition-duration: 500ms;
+}
+.aside__block_right_3{
+    margin:40px 0px 60px;
+}
+.aside__block_right_3 p{
+    font-size: 10px;
+}
+table{
+    font-size:12px
+}
+td:first-child{
+    text-transform:uppercase;
+    font-weight: 700;
+    padding-right: 15px;
+}
